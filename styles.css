@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.green.active{
+    background-color: green;
+}
+.orange.active{
+    background-color: orange;
+}
+.red.active{
+    background-color: red;
+}
